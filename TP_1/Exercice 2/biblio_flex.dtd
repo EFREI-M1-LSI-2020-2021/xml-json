@@ -1,0 +1,25 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT bib (domain)+>
+<!ATTLIST bib>
+
+<!ELEMENT domain (title|bib_ref+)*>
+<!ATTLIST domain>
+
+<!ELEMENT bib_ref (year|title|author|weblink|comments?)*>
+<!ATTLIST bib_ref>
+
+<!ELEMENT year (#PCDATA)>
+<!ATTLIST year>
+
+<!ELEMENT author (#PCDATA)>
+<!ATTLIST author>
+
+<!ELEMENT weblink (#PCDATA)>
+<!ATTLIST weblink>
+
+<!ELEMENT comments EMPTY>
+<!ATTLIST comments>
+
+<!ELEMENT title (#PCDATA)>
+<!ATTLIST title>

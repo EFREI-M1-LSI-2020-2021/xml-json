@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE list SYSTEM "list [
+   <!ELEMENT list (man | woman)*>
+   <!ELEMENT man (sons, daughters)>
+   <!ATTLIST man name CDATA #REQUIRED>
+   <!ELEMENT woman (sons, daughters)>
+   <!ATTLIST woman name CDATA #REQUIRED>
+   <!ELEMENT sons (man)*>
+   <!ELEMENT daughters (woman)*>
+]">
+<list><man name="Julien"><sons/><daughters><woman name="Sophie"><sons/><daughters/></woman><woman name="Ursule"><sons/><daughters/></woman></daughters></man><woman name="Marie"><sons><man name="Joseph"><sons/><daughters><woman name="Marie"><sons/><daughters/></woman></daughters></man></sons><daughters/></woman></list>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<apply xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="math.xsd">
+    <apply>
+        <cn>2</cn>
+        <plus />
+        <apply>
+            <cn>2</cn>
+            <plus />
+            <cn>3</cn>
+        </apply>
+    </apply>
+    <times />
+    <cn>4</cn>
+</apply>

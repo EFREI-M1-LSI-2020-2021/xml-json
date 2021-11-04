@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<?xml-stylesheet href="exo1.css" type="text/css"?>
+<!DOCTYPE film SYSTEM 'exo1_flex.dtd'>
+<film title='Les Brigades du Tigre' kind='Policier' director='Jérôme Cornuau'
+    year='2005' description='Les aventures du commissaire Valentin et des inspecteurs Terrasson et Pujol, 
+    membres des Brigades mobiles, corps spécial de la police française créé avant la Première Guerre mondiale.'>
+    <actors>
+        <actor>C. Cornillac</actor>
+        <actor>D. Kruger</actor>
+        <actor>E. Baer</actor>
+    </actors>
+    <languages>
+        <lang>VF (en Français)</lang>
+    </languages>
+    <notes>
+        <presse>3/5</presse>
+        <spectateurs>3/5</spectateurs>
+    </notes>
+    <schedules>
+        <day name='Mer'>
+            <hour>14:00</hour>
+            <hour>16:40</hour>
+            <hour>19:40</hour>
+            <hour>22:10</hour>
+        </day>
+        <day name='Sam'>
+            <hour>14:00</hour>
+            <hour>16:40</hour>
+            <hour>19:40</hour>
+            <hour>22:10</hour>
+        </day>
+        <day name='Jeu'>
+            <hour>14:00</hour>
+            <hour>19:40</hour>
+            <hour>22:10</hour>
+        </day>
+        <day name='Ven'>
+            <hour>14:00</hour>
+            <hour>19:40</hour>
+            <hour>22:10</hour>
+        </day>
+        <day name='Lun'>
+            <hour>14:00</hour>
+            <hour>19:40</hour>
+            <hour>22:10</hour>
+        </day>
+        <day name='Mar'>
+            <hour>14:00</hour>
+            <hour>19:40</hour>
+            <hour>22:10</hour>
+        </day>
+        <day name='Dim'>
+            <hour>10:20</hour>
+            <hour>14:00</hour>
+            <hour>16:40</hour>
+            <hour>20:20</hour>
+        </day>
+    </schedules>
+</film>

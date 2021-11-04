@@ -1,0 +1,55 @@
+* 
+{
+    display: block;
+}
+
+film {
+    border-style : solid;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+actors {
+    color : blue;
+    display: flex;
+}
+
+actors:before { 
+    content: 'Actors :';
+    color: #999900;
+}
+
+actor {
+    padding-left: 4px;
+}
+
+notes {
+    color : red;
+}
+
+presse:before {
+    content: 'Presse :';
+    color: #999900;
+}
+
+spectateurs:before {
+    content: 'Spectateurs :';
+    color: #999900;
+}
+
+schedules {
+    color : green;
+}
+
+day {
+    display: flex;
+}
+
+day:before { 
+    content: attr(name) ' :';
+    color: #999900;
+}
+
+hour {
+    padding-left: 4px;
+}

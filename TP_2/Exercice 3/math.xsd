@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="apply">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:choice minOccurs="1">
+                    <xs:element name="cn" type="xs:double" />
+                    <xs:element ref="apply" />
+                </xs:choice>
+                <xs:choice minOccurs="1">
+                    <xs:element name="plus" nillable="true" />
+                    <xs:element name="times" nillable="true" />
+                </xs:choice>
+                <xs:choice minOccurs="1">
+                    <xs:element name="cn" type="xs:double" />
+                    <xs:element ref="apply" />
+                </xs:choice>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

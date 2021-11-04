@@ -1,0 +1,32 @@
+[
+    {
+        "identifiant": 209165,
+        "nom": "TEST",
+        "prenom": "test",
+        "dateDeNaissance": "01/01/1999",
+        "lieuDeNaissance": "Toto",
+        "adresse" : {
+            "numRue": "1",
+            "nomRue" : "Titi",
+            "codePostal": "69696",
+            "ville": "Ville"
+        },
+        "mail": "mail@mail.me",
+        "coursSuivis" : [ "Maths", "Anglais", "Histoire" ]
+    },
+    {
+        "identifiant": 209166,
+        "nom": "Titi",
+        "prenom": "TOto",
+        "dateDeNaissance": "01/02/1999",
+        "lieuDeNaissance": "Titi",
+        "adresse" : {
+            "numRue": "1",
+            "nomRue" : "Toto",
+            "codePostal": "788998",
+            "ville": "Haha"
+        },
+        "mail": "contact@efrei.net",
+        "coursSuivis" : [ "Maths", "Anglais", "Histoire" ]
+    }
+]

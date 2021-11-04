@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contacts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="contact.xsd">
+    <person>
+        <name>Ulluoa</name>
+        <phone>0680817694</phone>
+        <address>
+            <street>Test</street>
+            <number>10</number>
+            <city>Paris</city>
+            <country>France</country>
+            <zip>75000</zip>
+        </address>
+        <firstname>Toto</firstname>
+    </person>
+    <company>
+        <name>EFREI</name>
+        <phone>0680817694</phone>
+        <address>
+            <street>Test</street>
+            <number>10</number>
+            <city>Paris</city>
+            <country>France</country>
+            <cedex>75000</cedex>
+        </address>
+    </company>
+</contacts>
